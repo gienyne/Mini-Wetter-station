@@ -67,7 +67,7 @@ Zusätzlich schaltet sich eine **LED** automatisch ein, wenn der Lichtwert unter
 3. Auf den Arduino hochladen (Mega oder Uno, ggf. Pins anpassen)  
 4. **Serial Monitor** öffnen (9600 Baud), um Live-Werte zu sehen  
 5. LCD zeigt Temperatur, Luftfeuchtigkeit und Lichtstärke an  
-6. LED schaltet sich ein, wenn der Lichtwert unter dem Grenzwert (`limit = 30`) liegt  
+6. LED schaltet sich ein, wenn der Lichtwert unter dem Grenzwert (`limit = 30`) liegt. Kann natürlich angepasst werden!  
 
 ---
 
