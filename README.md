@@ -34,19 +34,19 @@ DATA → D7
 Eine Seite → 5V
 Andere Seite → A4 + 10 kΩ Widerstand → GND
 
-### LCD (16×2)
-Pin 1 (VSS) → GND
-Pin 2 (VCC) → 5V
-Pin 3 (V0) → Potentiometer (Kontrast)
-Pin 4 (RS) → D12
-Pin 5 (RW) → GND
-Pin 6 (E) → D11
-Pin 11 (D4) → D5
-Pin 12 (D5) → D4
-Pin 13 (D6) → D3
-Pin 14 (D7) → D2
-Pin 15 (LED+) → 5V
-Pin 16 (LED-) → GND
+### LCD (16x2):
+Pin 1 (VSS)   → GND  
+Pin 2 (VCC)   → 5V  
+Pin 3 (V0)    → Mittlerer Pin des Potentiometers (Kontrast)  
+Pin 4 (RS)    → D12  
+Pin 5 (RW)    → GND  
+Pin 6 (E)     → D11  
+Pin 11 (D4)   → D5  
+Pin 12 (D5)   → D4  
+Pin 13 (D6)   → D3  
+Pin 14 (D7)   → D2  
+Pin 15 (LED+) → 5V (über 220Ω)  
+Pin 16 (LED-) → GND  
 
 ### LED-Indikator
 Anode (+) → D8
