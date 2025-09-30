@@ -25,33 +25,27 @@ Zusätzlich schaltet sich eine **LED** automatisch ein, wenn der Lichtwert unter
 
 ## ⚡ Schaltplan (Übersicht)
 
-### DHT11
-VCC → 5V
-GND → GND
-DATA → D7
 
-### LDR
-Eine Seite → 5V
-Andere Seite → A4 + 10 kΩ Widerstand → GND
-
-### LCD (16x2):
-Pin 1 (VSS)   → GND  
-Pin 2 (VCC)   → 5V  
-Pin 3 (V0)    → Mittlerer Pin des Potentiometers (Kontrast)  
-Pin 4 (RS)    → D12  
-Pin 5 (RW)    → GND  
-Pin 6 (E)     → D11  
-Pin 11 (D4)   → D5  
-Pin 12 (D5)   → D4  
-Pin 13 (D6)   → D3  
-Pin 14 (D7)   → D2  
-Pin 15 (LED+) → 5V (über 220Ω)  
-Pin 16 (LED-) → GND  
-
-### LED-Indikator
-Anode (+) → D8
-Kathode (–) → GND
-
+| Komponente | Pin am Modul       | Verbindung zum Arduino   |
+|------------|-------------------|--------------------------|
+| **DHT11**  | VCC               | 5V                       |
+|            | DATA              | D7                       |
+|            | GND               | GND                      |
+| **LDR**    | LDR → Spannungsteiler | A4                  |
+| **LED**    | Anode (+)         | D8 über 220Ω Widerstand  |
+|            | Kathode (-)       | GND                      |
+| **LCD 16x2** | VSS             | GND                      |
+|            | VCC               | 5V                       |
+|            | V0                | Mittlerer Pin Potentiometer |
+|            | RS                | D12                      |
+|            | RW                | GND                      |
+|            | E                 | D11                      |
+|            | D4                | D5                       |
+|            | D5                | D4                       |
+|            | D6                | D3                       |
+|            | D7                | D2                       |
+|            | LED+              | 5V (über 220Ω)           |
+|            | LED-              | GND                      |
 ---
 
 ## 🖥️ Software
